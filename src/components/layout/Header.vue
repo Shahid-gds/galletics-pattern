@@ -91,7 +91,8 @@
                </div>
             </nav>
         </div>
-        <div class="flex items-center p-6 cursor-pointer xl:hidden">
+        <div class="flex items-center justify-between p-6 cursor-pointer xl:hidden">
+           <div class="w-full">
             <button @click="toggleMobileMenu" class="block 2xl:hidden" transition="slide-fade">
                 <!-- Show menu icon or cancel icon based on isMobileMenuOpen -->
                 <svg v-if="!isMobileMenuOpen" xmlns="http://www.w3.org/2000/svg" fill="#ffff" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" class="w-6 h-6">
@@ -101,13 +102,26 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
+           </div>
+           <div class="w-full">
+            <router-link :to="{name: 'Home'}" @click="toggleMobileMenu" class="2xl:hidden">
+                <img class="2xl:w-full w-1/2" src="@/assets/images/Logo.svg" alt="">
+            </router-link>
+           </div>
+            <div class="flex items-center justify-end space-x-3 w-full">
+                <div class="relative">
+                    <img src="../icons/cart.svg" alt="">
+                    <div class="w-4 h-5 top-0 text-[14px] right-0 text-center text-white rounded-full bg-[#9740ff] absolute">0</div>
+                </div>
+                <div class="mt-1">
+                    <h1 class="text-[#7f6a97]">$0.00</h1>
+                </div>
+            </div>
         </div>
        <transition name="fade">
         <div v-if="isMobileMenuOpen" class="absolute z-50 w-full xl:hidden">
             <nav class="flex flex-col py-4 px-6 bg-[#150528] text-[#917bab]">
-                <router-link :to="{name: 'Home'}" @click="toggleMobileMenu" class="absolute left-[41.5%] -top-16 2xl:hidden">
-                    <img class="2xl:w-full w-1/2" src="@/assets/images/Logo.svg" alt="">
-                </router-link>
+               
                 <router-link @click="toggleMobileMenu" :to="{name:'Horoscopes'}" class="active-route-link py-2" :active-class="'active-route text-[#ac69fc] font-[600]'">Horoscopes</router-link>
                 <router-link @click="toggleMobileMenu" :to="{name:'Predictions'}" class="active-route-link py-2" :active-class="'active-route text-[#ac69fc] font-[600]'">Predictions</router-link>
                 <router-link @click="toggleMobileMenu" :to="{name:'Love and Compatibility'}" class="active-route-link py-2" :active-class="'active-route text-[#ac69fc] font-[600]'">Love & Compatibility</router-link>
