@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppin';
+}
+@font-face {
+  font-family: 'poppin';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'poppin-bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'Graviton-Stencil';
+  src: url('../fonts/ElectronicaDisplayStencil.otf');
+}
+@font-face {
+  font-family: 'Graviton-Solid';
+  src: url('../fonts/ElectronicaDisplaySolid.otf');
+}
+.hover-btn, .get-btn {
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  display: inline-block;
+  outline: 0;
+  position: relative;
+  overflow: hidden;
+}
+.hover-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 1;
+  -webkit-transform: translate(-105%, 0);
+  transform: translate(-105%, 0);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.get-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 1;
+  -webkit-transform: translate(-105%, 0);
+  transform: translate(-105%, 0);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.hover-btn:hover:before {
+  opacity: 0;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.get-btn:hover:before {
+  opacity: 0;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #9740ff;
+    border-radius: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+  }
