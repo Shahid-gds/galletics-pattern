@@ -3,7 +3,7 @@
 
         <div class="lg:flex px-6 text-left items-center pt-[2rem] relative">
             <div class="w-full">
-                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 left-[6rem] mr-auto ml-auto" src="../assets/images/IntroAstrologyImg3.svg" alt="">
+                <img class="lg:w-[40%] w-full lg:absolute top-0 left-[6rem] mr-auto ml-auto" src="../assets/images/IntroAstrologyImg3.svg" alt="">
             </div>
             <div class="w-full 2xl:pr-[20rem] sm:text-left text-center">
                 <h1 class="sm:text-[22px] text-[20px] text-white italic pb-6">Lorem Ipsum is simply dummy text </h1>

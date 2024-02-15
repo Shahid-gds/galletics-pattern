@@ -1,5 +1,5 @@
 <template>
-    <section class="pb-[8rem]">
+    <section class="sm:pb-[8rem]">
         <div>
             <div class="sm:flex sm:space-x-4 space-x-2 justify-center text-center">
                 <h1 class="font-[Graviton-Solid] sm:text-[50px] text-[30px] uppercase text-[#ffffff]">Introduction to</h1>
@@ -12,7 +12,7 @@
         </div>
         <div class="lg:flex px-6 text-left items-center pt-[2rem] relative">
             <div class="w-full">
-                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 left-[6rem] mr-auto ml-auto" src="../assets/images/IntroAstrologyImg1.svg" alt="">
+                <img class="lg:w-[40%] w-full lg:absolute top-0 left-[6rem] mr-auto ml-auto" src="../assets/images/IntroAstrologyImg1.svg" alt="">
             </div>
             <div class="w-full 2xl:pr-[20rem] sm:text-left text-center">
                 <h1 class="sm:text-[22px] text-[20px] text-white italic pb-6">Lorem Ipsum is simply dummy text </h1>
@@ -35,10 +35,10 @@
             </div>
         </div>
     </section>
-    <section class="pb-[5rem]">
+    <section class="sm:pb-[5rem]">
         <div class="lg:flex flex-row-reverse px-6 text-left items-center pt-[2rem] relative">
             <div class="w-full">
-                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 right-[10rem] mr-auto ml-auto" src="../assets/images/IntroAstrologyImg2.svg" alt="">
+                <img class="lg:w-[40%] w-full lg:absolute top-0 right-[10rem] mr-auto ml-auto" src="../assets/images/IntroAstrologyImg2.svg" alt="">
             </div>
             <div class="w-full 2xl:pl-[15rem] sm:text-left text-center">
                 <div class="sm:flex sm:space-x-4 space-x-2 pb-4">

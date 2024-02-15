@@ -130,9 +130,9 @@
                         <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[60%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
                     </div>
                     <div class="relative sm:hidden">
-                        <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[60%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
+                        <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[90%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
                         <div class="absolute -top-2.5">
-                            <img class="w-[65%] mr-auto ml-auto" src="@/assets/images/Dates.svg" alt="">
+                            <img class="w-[95%] mr-auto ml-auto" src="@/assets/images/Dates.svg" alt="">
                         </div>
                     </div>
                     <div class="absolute">
