@@ -77,6 +77,24 @@ const router = createRouter({
       component: () => import('../pages/RedJasper.vue')
     },
     {
+      path: '/palmistry-book', 
+      name: 'PalmistryBook',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/PalmistryBook.vue')
+    },
+    {
+      path: '/astrology-book', 
+      name: 'AstrologyBook',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/AstrologyBook.vue')
+    },
+    {
+      path: '/tarot-book', 
+      name: 'TarotBook',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/TarotBook.vue')
+    },
+    {
       path: '/blog',
       name: 'Blog',
       meta: { layout: 'Default' },

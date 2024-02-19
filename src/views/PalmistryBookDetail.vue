@@ -14,7 +14,7 @@
             <div class="mt-[4rem]">
               <div class="flex justify-center">
                 <div>
-                  <img class="w-[200px]" :src="card.image">
+                  <img class="w-[100px]" :src="card.image">
                 </div>
               </div>
               <div class="flex space-x-7 items-center justify-center mt-[6rem]">
@@ -112,17 +112,17 @@
   };
   const cards = ref([
     {
-      image: import('../assets/images/RedJasper.svg').then((module) => module.default),
-      imgOne: import('../assets/images/Mineral-1.svg').then((module) => module.default),
-      imgTwo: import('../assets/images/Mineral-2.svg').then((module) => module.default),
-      imgThree: import('../assets/images/Mineral-3.svg').then((module) => module.default),
+      image: import('../assets/images/PalmistryBook.svg').then((module) => module.default),
+      imgOne: import('../assets/images/AstrologyBook.svg').then((module) => module.default),
+      imgTwo: import('../assets/images/PalmistryBook.svg').then((module) => module.default),
+      imgThree: import('../assets/images/TarotBook.svg').then((module) => module.default),
     },
   
   
   ]);
   const cardDetails = ref([
     {
-      heading: 'Red Jasper',
+      heading: 'Palmistry Book',
       headingTwo: 'Lorem Ipsum is simply dummy text',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, ',
       stars: import('../components/icons/star.svg').then((module) => module.default),

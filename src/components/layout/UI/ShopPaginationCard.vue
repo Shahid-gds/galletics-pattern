@@ -192,7 +192,7 @@ const cards = ref([
     },
     {
         category: 'Accessories', image: import('../../../assets/images/TarotCards.svg').then((module) => module.default),
-        heading: 'Tarot Book', stars: import('../../icons/star.svg').then((module) => module.default),
+        heading: 'Tarot Card', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$40.00',
         cardButton:'Shop Now'
     },
