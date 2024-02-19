@@ -50,13 +50,43 @@ const router = createRouter({
       path: '/shop',
       name: 'Shop',
       meta: { layout: 'Default' },
-      component: () => import('../pages/Shop.vue')
+      component: () => import('../pages/Shop.vue'),
+    },
+    {
+      path: '/orange-calcite', 
+      name: 'OrangeCalcite',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/OrangeCalcite.vue')
+    },
+    {
+      path: '/orange-calcite', 
+      name: 'OrangeCalcite',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/OrangeCalcite.vue')
+    },
+    {
+      path: '/green-sardonyx', 
+      name: 'GreenSardonyx',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/GreenSardonyx.vue')
+    },
+    {
+      path: '/red-jasper', 
+      name: 'RedJasper',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/RedJasper.vue')
     },
     {
       path: '/blog',
       name: 'Blog',
       meta: { layout: 'Default' },
       component: () => import('../pages/Blog.vue')
+    },
+    {
+      path: '/blog-detail',
+      name: 'DetailBlog',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/BlogDetailFirstCard.vue')
     },
     {
       path: '/about-us',

@@ -1,5 +1,5 @@
 <template>
-    <section class="sm:pb-[15rem] pb-[5rem]">
+    <section class="2xl:pb-[15rem] pb-[5rem]">
       <div class="2xl:pt-[22rem] lg:pt-[18rem] pt-[8rem] text-center container mx-auto">
         <div class="lg:leading-[4rem]">
           <div class="flex sm:space-x-4 space-x-2 justify-center">

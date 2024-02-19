@@ -10,7 +10,6 @@
               clear once you understand how the universe influences it.</p>
           </div>
         </div>
-       
       </div>
       <div class="pt-[3rem] pb-[5rem] overflow-hidden">
        <BlogPaginationCards />

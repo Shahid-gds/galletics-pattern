@@ -55,16 +55,16 @@
    
    <style scoped>
    .HomeHeroBg{
-    background: url("@/assets/images/bgs/ShopHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
+    background: url("@/assets/images/bgs/BlogHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
     background-size: 100% 100%;
    }
  
      .bg{
          overflow-x: hidden;
      }
-     @media(max-width:768px){
+     @media(max-width:1366px){
       .HomeHeroBg{
-        background: url("@/assets/images/bgs/ShopHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
+        background: url("@/assets/images/bgs/BlogHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
         background-size: cover;
        }
     }

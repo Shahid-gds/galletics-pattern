@@ -83,7 +83,7 @@ onUnmounted(() => {
   overflow-x: hidden;
 }
 
-@media(max-width:768px) {
+@media(max-width:1366px) {
   .HomeHeroBg {
     background: url("@/assets/images/bgs/HomeHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
     background-size: cover;

@@ -2,13 +2,13 @@
     <section class="">
         <transition-group name="nested" tag="div" class="flex flex-wrap justify-center sm:mt-[3rem] mt-[1.5rem]">
             <div v-for="card in cards" :key="card.image"
-                class="card-hover card 2xl:w-[583px] xl:w-[620px] p-10 m-2 border-2 border-[#5d289d] rounded-2xl">
+                class="card-hover card 2xl:w-[583px] xl:w-[400px] 2xl:p-10 p-4 m-2 border-2 border-[#5d289d] rounded-2xl">
                 <div class="flex items-center space-x-6">
-                    <div class=" rounded-2xl">
+                    <div class="rounded-2xl">
                         <img class="" :src="card.image">
                     </div>
                     <div class="w-full">
-                        <h1 class="text-[#ffffff] font-[poppin-bold] text-[30px]">
+                        <h1 class="text-[#ffffff] font-[poppin-bold] 2xl:text-[30px] text-[20px]">
                             {{ card.heading }}
                         </h1>
                         <p class="text-[#ac95c7] pt-1">

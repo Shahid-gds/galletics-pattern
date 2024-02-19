@@ -1,5 +1,5 @@
 <template>
-    <section class="sm:pb-[15rem] pb-[5rem]">
+    <section class="pb-[5rem]">
       <div class="2xl:pt-[22rem] lg:pt-[18rem] pt-[8rem] text-center container mx-auto">
         <div class="lg:leading-[3rem]">
           <div class="flex sm:space-x-4 space-x-2 justify-center">
@@ -13,7 +13,7 @@
         </div>
   <div>
     <div class="lg:flex lg:space-x-28 justify-between pt-[5rem] px-6">
-      <div class="w-full pb-28">
+      <div class="w-full pb-16">
           <div class="flex sm:space-x-4 space-x-2">
               <h1 class="text-[25px] uppercase text-[#ffff] font-[Graviton-Solid]">Partner</h1>
               <h1 class="text-[25px]  uppercase text-[#9740ff] font-[Graviton-Solid]">a</h1>
@@ -61,9 +61,9 @@
           </div>
       </div>
     <div class="w-[20%] flex justify-center relative">
-      <div class="w-1 h-full bg-[#ac69fc]">
+      <div class="w-1 h-[90%] bg-[#ac69fc]">
         <div class="absolute lg:block hidden w-full lg:right-0 lg:top-[10rem] -top-[8rem]">
-          <img class="" src="../assets/images/heart.svg" alt="">
+          <img class="w-full" src="../assets/images/heart.svg" alt="">
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@
       </div>
      
      </div>
-     <div class="w-full pt-8">
+     <div class="w-full">
       <div
       class="hover-btn p-5 text-center bg-gradient-to-r from-[#6719c9] bg-[#9740ff] w-[330px] cursor-pointer rounded-xl text-[16px] uppercase text-white font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#6719c9] hover:bg-[#9740ff] transition duration-150">
       GET COMPATIBILITY</div>

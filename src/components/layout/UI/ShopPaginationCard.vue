@@ -1,7 +1,7 @@
 <template>
     <section class="sm:py-[5rem] py-[4rem]">
-        <div class="lg:flex justify-center lg:space-x-8 px-6 text-left">
-            <div class="pb-2">
+        <div class="flex flex-wrap justify-center px-6 text-left">
+            <div class="pb-2 m-2">
                 <div @click="setActiveCategory('Accessories')"
                     :class="{ 'active bg-gradient-to-r from-[#9740ff] bg-[#6824bc]  font-[Graviton-Solid]': activeCategory === 'Accessories' }"
                     class="lg:w-[270px] w-full bg-gradient-to-r from-[#381863] bg-[#14062b]  hover-btn hover:bg-gradient-to-r hover:from-[#9740ff] hover:bg-[#6824bc] hover:text-white p-3 rounded-xl uppercase font-[Graviton-Solid] text-[#9c9c9c] cursor-pointer">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pb-2">
+            <div class="pb-2 m-2">
                 <div @click="setActiveCategory('Astrology')"
                     :class="{ 'active bg-gradient-to-r from-[#9740ff] bg-[#6824bc]  font-[Graviton-Solid]': activeCategory === 'Astrology' }"
                     class="lg:w-[270px] w-full bg-gradient-to-r from-[#381863] bg-[#14062b]  hover-btn hover:bg-gradient-to-r hover:from-[#9740ff] hover:bg-[#6824bc] hover:text-white p-3 rounded-xl uppercase font-[Graviton-Solid] text-[#9c9c9c] cursor-pointer">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pb-2">
+            <div class="pb-2 m-2">
                 <div @click="setActiveCategory('Candles')"
                     :class="{ 'active bg-gradient-to-r from-[#9740ff] bg-[#6824bc]  font-[Graviton-Solid]': activeCategory === 'Candles' }"
                     class="lg:w-[270px] w-full bg-gradient-to-r from-[#381863] bg-[#14062b]  hover-btn hover:bg-gradient-to-r hover:from-[#9740ff] hover:bg-[#6824bc] hover:text-white p-3 rounded-xl uppercase font-[Graviton-Solid] text-[#9c9c9c] cursor-pointer">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pb-2">
+            <div class="pb-2 m-2">
                 <div @click="setActiveCategory('Crystals')"
                     :class="{ 'active bg-gradient-to-r from-[#9740ff] bg-[#6824bc]  font-[Graviton-Solid]': activeCategory === 'Crystals' }"
                     class="lg:w-[270px] w-full bg-gradient-to-r from-[#381863] bg-[#14062b]  hover-btn hover:bg-gradient-to-r hover:from-[#9740ff] hover:bg-[#6824bc] hover:text-white p-3 rounded-xl uppercase font-[Graviton-Solid] text-[#9c9c9c] cursor-pointer">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pb-2">
+            <div class="pb-2 m-2">
                 <div @click="setActiveCategory('Mystical')"
                     :class="{ 'active bg-gradient-to-r from-[#9740ff] bg-[#6824bc]  font-[Graviton-Solid]': activeCategory === 'Mystical' }"
                     class="lg:w-[270px] w-full bg-gradient-to-r from-[#381863] bg-[#14062b]  hover-btn hover:bg-gradient-to-r hover:from-[#9740ff] hover:bg-[#6824bc] hover:text-white p-3 rounded-xl uppercase font-[Graviton-Solid] text-[#9c9c9c] cursor-pointer">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pb-2">
+            <div class="pb-2 m-2">
                 <div @click="setActiveCategory('Tarot')"
                     :class="{ 'active bg-gradient-to-r from-[#9740ff] bg-[#6824bc]  font-[Graviton-Solid]': activeCategory === 'Tarot' }"
                     class="lg:w-[270px] w-full bg-gradient-to-r from-[#381863] bg-[#14062b]  hover-btn hover:bg-gradient-to-r hover:from-[#9740ff] hover:bg-[#6824bc] hover:text-white p-3 rounded-xl uppercase font-[Graviton-Solid] text-[#9c9c9c] cursor-pointer">
@@ -95,8 +95,8 @@
         </div>
         <transition-group name="nested" tag="div" class="flex flex-wrap justify-center sm:mt-[3rem] mt-[1.5rem]">
             <div v-for="card in filteredCards" :key="card.image"
-                class="card-hover card 2xl:w-[470px] xl:w-[450px] p-5 m-2 rounded-2xl">
-                <div class="">
+                class="card-hover card 2xl:w-[470px] xl:w-[400px] p-5 m-2 rounded-2xl">
+                <router-link :to="`/${card.heading.replace(' ', '-')}`">
                     <div class="h-[377px] bg-[#150528] p-28 border-2 rounded-2xl border-[#3a1565] flex justify-center relative">
                         <img class="w-[200px]" :src="card.image">
                         <div class="absolute cursor-pointer uppercase bottom-0 right-0 text-white bg-gradient-to-r from-[#6719c9] bg-[#9740ff] p-3 px-8 rounded-tl-xl rounded-br-2xl">
@@ -136,11 +136,8 @@
                             <div class="text-[#ca9dff] font-[poppin-bold] text-xl">{{ card.amount }}</div>
                         </div>
                         </div>
-                        
                       </div>
-                </div>
-              
-                
+                </router-link>
             </div>
         </transition-group>
     
@@ -155,82 +152,79 @@ const cards = ref([
         category: 'Accessories', image: import('../../../assets/images/OrangeCalcite.svg').then((module) => module.default),
         heading: 'Orange Calcite', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$47.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now',
     },
     {
         category: 'Accessories', image: import('../../../assets/images/GreenSardonyx.svg').then((module) => module.default),
-        heading: 'Orange Calcite', stars: import('../../icons/star.svg').then((module) => module.default),
+        heading: 'Green Sardonyx', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$55.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/RedJasper.svg').then((module) => module.default),
         heading: 'Red Jasper', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$38.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/PalmistryBook.svg').then((module) => module.default),
         heading: 'Palmistry Book', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$340.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/AstrologyBook.svg').then((module) => module.default),
         heading: 'Astrology Book', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$267.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/TarotBook.svg').then((module) => module.default),
         heading: 'Tarot Book', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$238.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/CandleJasmine.svg').then((module) => module.default),
         heading: 'Candle Jasmine', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$267.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/TarotCards.svg').then((module) => module.default),
         heading: 'Tarot Book', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$40.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
     {
         category: 'Accessories', image: import('../../../assets/images/TarotCardGold.svg').then((module) => module.default),
         heading: 'Tarot Card Gold', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$238.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
-
 
     // Astrology Cards
     {
         category: 'Astrology',  image: import('../../../assets/images/TarotCardGold.svg').then((module) => module.default),
         heading: 'Tarot Card Gold', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$238.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
-
 
     // Candles Cards
     {
         category: 'Candles',  image: import('../../../assets/images/TarotCardGold.svg').then((module) => module.default),
         heading: 'Tarot Card Gold', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$238.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
-
 
     // Crystals Cards
     {
         category: 'Crystals',  image: import('../../../assets/images/TarotCardGold.svg').then((module) => module.default),
         heading: 'Tarot Card Gold', stars: import('../../icons/star.svg').then((module) => module.default),
         amount: '$238.00',
-        cardButton:'Add Cart'
+        cardButton:'Shop Now'
     },
 
 ]);

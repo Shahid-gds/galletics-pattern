@@ -104,7 +104,7 @@
             </button>
            </div>
            <div class="w-full">
-            <router-link :to="{name: 'Home'}" @click="toggleMobileMenu" class="2xl:hidden">
+            <router-link :to="{name: 'Home'}" class="2xl:hidden">
                 <img class="2xl:w-full w-1/2" src="@/assets/images/Logo.svg" alt="">
             </router-link>
            </div>
