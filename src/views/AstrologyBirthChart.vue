@@ -53,7 +53,7 @@
              <div class="flex justify-center py-8">
                 <div class="form-group">
                     <input type="checkbox" id="html" checked>
-                    <label class="text-[#f5f4f5]" for="html">By accepting you agree to our <a class="text-[#ad95c7] underline" href="#">Terms of Service</a> and <a class="text-[#ad95c7] underline" href="#">Privacy Policy</a>.</label>
+                    <label class="text-[#f5f4f5]" for="html">By accepting you agree to our <a class="text-[#ad95c7] underline" href="/terms">Terms of Service</a> and <a class="text-[#ad95c7] underline" href="/privacy">Privacy Policy</a>.</label>
                   </div>
              </div>
              <div class="w-full flex justify-center">

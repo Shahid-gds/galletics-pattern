@@ -118,6 +118,18 @@ const router = createRouter({
       meta: { layout: 'Default' },
       component: () => import('../pages/ContactUs.vue')
     },
+    {
+      path: '/terms',
+      name: 'Terms',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Terms.vue')
+    },
+    {
+      path: '/privacy',
+      name: 'Privacy',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Privacy.vue')
+    },
    
   ]
 })
