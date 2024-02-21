@@ -12,8 +12,8 @@
         </div>
         <div class="sm:pt-[8rem] pt-[1rem]">
             <div class="mx-auto container relative px-6">
-                <div class="absolute 2xl:left-[18rem] xl:left-[20rem] lg:left-[15rem] sm:left-[13rem] sm:block hidden">
-                    <div class="flex items-center text-left space-x-3  sm:mt-[5rem]">
+                <div class="left-side absolute 2xl:left-[18rem] xl:left-[20rem] lg:left-[15rem] sm:left-[13rem] sm:block hidden">
+                    <div class="flex items-center text-left space-x-3  sm:mt-[5rem] aries">
                         <div class="">
                             <img class="" src="../components/icons/sign1.svg" alt="">
                         </div>
@@ -22,7 +22,7 @@
                             <p class="text-[#c5ace2]">Mar 21 - Apr 19</p>
                         </div>
                     </div>
-                    <div class="flex items-center text-left space-x-3 2xl:mt-[5rem] xl:mt-[2rem] lg:mt-[1rem] sm:-ml-[6rem]">
+                    <div class="flex items-center text-left space-x-3 2xl:mt-[5rem] xl:mt-[2rem] lg:mt-[1rem] sm:-ml-[6rem] taurus">
                         <div>
                             <img src="../components/icons/sign2.svg" alt="">
                         </div>
@@ -31,7 +31,7 @@
                             <p class="text-[#c5ace2]">Apr 20 - May 20</p>
                         </div>
                     </div>
-                    <div class="flex items-center text-left space-x-3 2xl:mt-[10rem] xl:mt-[5rem] lg:mt-[2rem] mt-[1rem] -ml-[8rem]">
+                    <div class="flex items-center text-left space-x-3 2xl:mt-[10rem] xl:mt-[5rem] lg:mt-[2rem] mt-[1rem] -ml-[8rem] gemini">
                         <div>
                             <img src="../components/icons/sign3.svg" alt="">
                         </div>
@@ -40,7 +40,7 @@
                             <p class="text-[#c5ace2]">May 21 - Jun 21</p>
                         </div>
                     </div>
-                    <div class="flex items-center text-left space-x-3 lg:mt-[8rem] mt-[1rem] -ml-[8rem]">
+                    <div class="flex items-center text-left space-x-3 lg:mt-[8rem] mt-[1rem] -ml-[8rem] cancer">
                         <div>
                             <img src="../components/icons/sign4.svg" alt="">
                         </div>
@@ -49,7 +49,7 @@
                             <p class="text-[#c5ace2]">Jun 22 - Jan 23</p>
                         </div>
                     </div>
-                    <div class="flex items-center text-left space-x-3 2xl:mt-[8rem] xl:mt-[4rem] lg:mt-[2rem] mt-[1rem] lg:-ml-[3rem] -ml-[7rem]">
+                    <div class="flex items-center text-left space-x-3 2xl:mt-[8rem] xl:mt-[4rem] lg:mt-[2rem] mt-[1rem] lg:-ml-[3rem] -ml-[7rem] leo">
                         <div>
                             <img src="../components/icons/sign5.svg" alt="">
                         </div>
@@ -58,7 +58,7 @@
                             <p class="text-[#c5ace2]">July 24 - Aug 23</p>
                         </div>
                     </div>
-                    <div class="flex items-center text-left space-x-3 2xl:mt-[5rem] xl:mt-[4rem] lg:mt-[2rem] mt-[1rem] lg:ml-[6rem]">
+                    <div class="flex items-center text-left space-x-3 2xl:mt-[5rem] xl:mt-[4rem] lg:mt-[2rem] mt-[1rem] lg:ml-[6rem] virgo">
                         <div>
                             <img src="../components/icons/sign6.svg" alt="">
                         </div>
@@ -69,7 +69,7 @@
                     </div>
                    
                 </div>
-                <div class="absolute 2xl:right-[5rem] xl:right-[5rem] lg:right-[2rem] -right-[1rem] sm:block hidden">
+                <div class="right-side absolute 2xl:right-[5rem] xl:right-[5rem] lg:right-[2rem] -right-[1rem] sm:block hidden">
                     <div class="flex items-center text-left space-x-3  mt-[5rem]">
                         <div>
                             <img src="../components/icons/sign7.svg" alt="">
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center relative">
-                    <div class="sm:block hidden">
+                    <div class="sm:block hidden ChooseImgLarge">
                         <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[60%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
                     </div>
                     <div class="relative sm:hidden">
@@ -272,4 +272,14 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
+  @media(max-width:1650px) {
+    .next[data-v-a66f6738] {
+        right: -59px;
+        text-align: center;
+    }
+    .prev[data-v-a66f6738] {
+        left: -58px;
+        padding-right: 8px;
+    }
+}
 </style>
