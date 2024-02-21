@@ -57,7 +57,7 @@
    <style scoped>
    .HomeHeroBg{
     background: url("@/assets/images/bgs/OrangeCalciteHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
    }
    .RelatedProductBg{
     background: url("@/assets/images/bgs/RelatedProductBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;

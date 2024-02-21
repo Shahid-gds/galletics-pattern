@@ -56,7 +56,7 @@
    <style scoped>
    .HomeHeroBg{
     background: url("@/assets/images/bgs/BlogDetailBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
    }
   
      .bg{

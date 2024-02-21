@@ -81,36 +81,9 @@ onMounted(async () => {
     opacity: 0;
 }
 
-/*.card-hover {
-    transition: all 0.2s ease-out;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    display: inline-block;
-    outline: 0;
-    position: relative;
-    overflow: hidden;
+@media(max-width:1600px){
+    .card{
+        width: 500px;
+    }
   }
-  .card-hover:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-    transform: translate(105%, 105%);
-    background-color: rgba(26, 14, 64, 0.877);
-  }
-  .card-hover:hover:before {
-    opacity: 0;
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }*/
 </style>

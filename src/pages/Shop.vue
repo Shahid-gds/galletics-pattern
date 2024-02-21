@@ -3,7 +3,7 @@
      <div v-if="isLoading" class="absolute inset-0 flex items-center justify-center bg-[#1e0d34] opacity-80 z-50">
        <div class="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"></div>
    </div>
-     <section class="bg bg-gradient-to-t from-[#3f256c] bg-[#1e0d34]">
+     <section :class="{ 'bg-opacity-100': !isLoading }" class="bg bg-gradient-to-t from-[#3f256c] bg-[#1e0d34] transition-opacity duration-500">
        <div v-for="section in sections" :key="section.name" :class="section.class">
          <div class="section">
            <component :is="section.component" />
@@ -56,7 +56,7 @@
    <style scoped>
    .HomeHeroBg{
     background: url("@/assets/images/bgs/ShopHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
    }
  
      .bg{

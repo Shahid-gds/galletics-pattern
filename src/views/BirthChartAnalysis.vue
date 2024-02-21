@@ -125,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-center relative">
+                <div class="flex justify-center relative ChooseImgLarge">
                     <div class="sm:block hidden">
                         <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[60%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
                     </div>
@@ -272,4 +272,15 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
+  @keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.ChooseImgLarge img {
+    animation: rotateAnimation 50s 
+}
 </style>

@@ -58,15 +58,15 @@
    <style scoped>
    .HomeHeroBg{
     background: url("@/assets/images/bgs/AboutUsHeroBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover
    }
    .AboutUsBg{
     background: url("@/assets/images/bgs/IntroAstrologyBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
    }
    .ChooseBg{
     background: url("@/assets/images/bgs/EbookCarouselBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
    }
    .BlogBg{
     background: url("@/assets/images/bgs/BlogBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;

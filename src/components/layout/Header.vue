@@ -74,7 +74,7 @@
                         </li>
                     </ul>
                 </div>
-                <router-link :to="{ name: 'Home' }" class="absolute left-[39.5%] 2xl:block hidden">
+                <router-link :to="{ name: 'Home' }" class="lg-logo absolute left-[39.5%] 2xl:block hidden">
                     <img class="2xl:w-full w-1/2" src="@/assets/images/Logo.svg" alt="">
                 </router-link>
                 <router-link :to="{ name: 'Home' }" class="absolute left-[41.5%] -top-24 2xl:hidden">
@@ -190,10 +190,15 @@ const toggleMobileMenu = () => {
     opacity: 0;
 }
 
-@media(max-width:1650px) {
+@media(max-width:1900px) {
     .header {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .lg-logo img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    } 
 }
 </style>

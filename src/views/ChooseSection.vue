@@ -129,7 +129,7 @@
                     <div class="sm:block hidden ChooseImgLarge">
                         <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[60%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
                     </div>
-                    <div class="relative sm:hidden">
+                    <div class="relative sm:hidden ChooseImgLarge">
                         <img class="sm:ml-[2.5rem] sm:mt-[1.5rem] sm:w-full w-[90%] ml-auto mr-auto" src="../assets/images/ChooseImg1.svg" alt="">
                         <div class="absolute -top-2.5">
                             <img class="w-[95%] mr-auto ml-auto" src="@/assets/images/Dates.svg" alt="">
@@ -272,14 +272,17 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  @media(max-width:1650px) {
-    .next[data-v-a66f6738] {
-        right: -59px;
-        text-align: center;
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
     }
-    .prev[data-v-a66f6738] {
-        left: -58px;
-        padding-right: 8px;
+    to {
+        transform: rotate(360deg);
     }
 }
+
+.ChooseImgLarge img {
+    animation: rotateAnimation 50s 
+}
+
 </style>
