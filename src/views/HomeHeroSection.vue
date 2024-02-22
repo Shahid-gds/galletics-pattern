@@ -24,7 +24,7 @@
           Get Start Now!</div>
       </div>
     </div>
-    <div class="pt-[3rem] pb-[5rem] overflow-hidden">
+    <div class="pt-[3rem] overflow-hidden">
      <HomeCarousel />
     </div>
   </section>

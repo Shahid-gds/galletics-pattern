@@ -1,5 +1,5 @@
 <template>
-    <section class="sm:py-28 sm:pb-[15rem] pb-[5rem]">
+    <section class="sm:py-28 sm:pb-[15rem] pb-[5rem] pt-[5rem]">
         <div>
             <div class="flex sm:space-x-4 space-x-2 justify-center">
                 <h1 class="font-[Graviton-Solid] sm:text-[50px] text-[30px] uppercase text-[#ffffff]">About</h1>
@@ -10,7 +10,7 @@
                     becomes clear once you understand how the universe influences it.</p>
             </div>
         </div>
-        <div class="lg:flex px-6 text-left items-center pt-[2rem]">
+        <div class="lg:flex px-6 text-left items-center sm:pt-[2rem]">
             <div class="w-full">
                 <img src="../assets/images/AboutImg1.svg" alt="">
             </div>
