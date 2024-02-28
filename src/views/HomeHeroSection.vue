@@ -1,34 +1,48 @@
 <template>
-  <section class="">
-    <div class="2xl:pt-[22rem] lg:pt-[18rem] pt-[8rem] text-center container mx-auto">
-      <div class="lg:leading-[4rem]">
-        <div class="flex sm:space-x-4 space-x-2 justify-center">
-          <h1 class="font-[Graviton-Stencil] 2xl:text-[36px] lg:text-[30px] sm:text-[20px] text-[18px] uppercase text-[#9740ff]"> Get your personal</h1>
-          <h1 class="font-[Graviton-Stencil] 2xl:text-[36px] lg:text-[30px] sm:text-[20px] text-[18px] uppercase text-[#ffffff]">divination</h1>
+    <section class="">
+      <div class="2xl:pt-[22rem] lg:pt-[18rem] pt-[8rem] text-center container mx-auto pb-[25rem] px-6">
+        <div class="font-extrabold sm:leading-[2.5rem]">
+          <span class="text-[#010101]  md:text-[70px] sm:text-[50px] text-[30px] font-[Jost-ExtraBold]">Discover</span><span class="text-[#61c1b4]  md:text-[70px] sm:text-[50px] text-[30px] font-[Jost-SemiBold]"> Local<sup class="font-features sups text-[#010101] font-[Jost-SemiBold]">sm</sup></span>
+          <h1 class="md:text-[36px] sm:text-[25px] text-[18px] font-[Jost-ExtraBold]">There Was Legal Weet Shops Nearby?</h1>
+          <p>Working with a global network of wellbeing enthusiasts and health experts</p>
         </div>
-        <div class="flex sm:space-x-4 space-x-2 justify-center">
-          <h1 class="font-[Graviton-Solid] 2xl:text-[65px] lg:text-[50px] sm:text-[30px] text-[25px] uppercase text-[#ffffff]"> Everyting is</h1>
-          <h1 class="font-[Graviton-Solid] 2xl:text-[65px] lg:text-[50px] sm:text-[30px] text-[25px] uppercase text-[#9740ff]">Astrology</h1>
+       <div class="sm:block hidden">
+        <div class="w-full flex justify-center mt-[2rem]">
+          <div class="relative xl:w-1/2 w-full">
+            <input class="border-2 shadow-xl w-full p-6 rounded-2xl" type="text" placeholder="Find Dispensaries, Products, Retailers, Brands, & More ...">
+            <div class="flex items-center justify-center space-x-3 bg-[#61c1b4] w-[10rem] p-4 absolute top-1.5 right-1.5 rounded-xl cursor-pointer">
+              <div class="font-[jost-SemiBold] text-2xl text-white uppercase">Find</div>
+              <div>
+                <img src="../components/icons/searchIcon.svg" alt="">
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="2xl:px-[20rem] px-6 leading-[2rem] pt-4">
-          <p class="sm:text-[20px] text-white">Learn about astrology, zodiac signs, retrogrades, and more! Your world becomes
-            clear once you understand how the universe influences it.</p>
+       </div>
+       <div class="sm:hidden">
+        <div class="w-full flex justify-center mt-[2rem]">
+          <div class="w-full flex">
+            <input class="border-l-2 border-t-2 border-b-2 shadow-xl w-full p-6 rounded-l-2xl" type="text" placeholder="Find Dispensaries, Products, Retailers, Brands, & More ...">
+            <div class="flex items-center justify-center space-x-3 bg-[#61c1b4] w-[10rem] p-4 rounded-r-xl cursor-pointer">
+              <div class="font-[jost-SemiBold] text-xl text-white uppercase">Find</div>
+              <div class="w-full">
+                <img src="../components/icons/searchIcon.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+        <div class="flex justify-center items-center sm:space-x-4 mt-[2rem]">
+          <div>
+            <img src="../components/icons/oilDrop.svg" alt="">
+          </div>
+          <div class="font-[Semi-Bold] mt-[1.5rem] sm:text-2xl">
+            1000MG, Whole Plant Hemp Extract.
+          </div>
         </div>
       </div>
-      <div class="flex justify-center space-x-4 py-6 px-6">
-        <div
-          class="hover-btn sm:p-4 p-2.5 py-4 bg-gradient-to-r from-[#6719c9] bg-[#9740ff] sm:w-[255px] cursor-pointer rounded-xl 2xl:text-[20px] sm:text-[18px] uppercase text-white font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#6719c9] hover:bg-[#9740ff] transition duration-150">
-          Explore Astrology</div>
-        <div
-          class="get-btn sm:p-4 p-2.5 py-4 bg-gradient-to-r from-[#ffffff] bg-[#c9c9c9] sm:w-[255px] cursor-pointer rounded-xl 2xl:text-[20px] sm:text-[18px] uppercase text-[#230944] font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#ffffff] hover:bg-[#c9c9c9] transition duration-150">
-          Get Start Now!</div>
-      </div>
-    </div>
-    <div class="pt-[3rem] overflow-hidden">
-     <HomeCarousel />
-    </div>
-  </section>
-</template>
-<script setup>
-import HomeCarousel from '@/components/layout/UI/HomeCarousel.vue';
-</script>
+    </section>
+  </template>
+  <script setup>
+
+  </script>
