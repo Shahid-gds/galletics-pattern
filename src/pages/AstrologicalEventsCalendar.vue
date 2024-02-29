@@ -26,7 +26,7 @@
    
    const sections = [
      { name: 'HomeHeroBg', class: 'HomeHeroBg', component: defineAsyncComponent(() => import('../views/AstrologicalEventsHeroSection.vue').then(m => m.default), { lazy: true }) },
-     { name: 'AboutUsBg', class: 'AboutUsBg', component: defineAsyncComponent(() => import('../views/EventCarouselSection.vue').then(m => m.default), { lazy: true }) },
+    //  { name: 'AboutUsBg', class: 'AboutUsBg', component: defineAsyncComponent(() => import('../views/EventCarouselSection.vue').then(m => m.default), { lazy: true }) },
      { name: 'ChooseBg', class: 'ChooseBg', component: defineAsyncComponent(() => import('../views/AstrologicalEventsAbout.vue').then(m => m.default), { lazy: true }) },
      { name: 'BlogBg', class: 'BlogBg', component: defineAsyncComponent(() => import('../views/BlogSection.vue').then(m => m.default), { lazy: true }) },
    ];

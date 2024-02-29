@@ -103,5 +103,6 @@ onUnmounted(() => {
     background: url("@/assets/images/bgs/BlogBg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
     background-size: cover;
   }
-}</style>
+}
+</style>
    

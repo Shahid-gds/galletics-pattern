@@ -20,13 +20,13 @@
                 <p class="text-[#9a84b4] pb-6 sm:text-[18px]">We believe that the cosmos holds the key to understand our
                     place in the universe. Our team of seasoned astrologers, led by a commitment to accuracy and insight,
                     guides you through life's complexities with personalized readings and forecasts.</p>
-                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">Our gifted astrologers take this cosmic insight and translate
-                    it into clear, actionable revelations tailored just for you. Our in-depth approach ensures the accuracy
-                    you deserve. We're here to help you understand your cosmos and chart the best course for your future,
-                    guided by the stars. </p>
-                <p class="sm:text-[22px] text-[20px] italic text-[#c5ace2]">From interpreting the subtle motions of the
-                    planets to the significant shifts within the zodiac, we provide clarity and wisdom for any seeker's
-                    journey.</p>
+                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">From interpreting the subtle motions of the planets to the
+                    significant shifts within the zodiac, we provide clarity and wisdom for any seeker's journey. Our gifted
+                    astrologers take this cosmic insight and translate it into clear, actionable revelations tailored just
+                    for you. Our in-depth approach ensures the accuracy you deserve.</p>
+                <p class="sm:text-[22px] text-[20px] italic text-[#c5ace2]">We're devoted to unraveling the mysteries of the
+                    universe to provide personalized guidance. We use proven astrological methods to map the planets'
+                    movements and decode their influence on your path ahead.</p>
                 <div class="pt-[2rem]">
                     <div
                         class="get-btn lg:p-4 p-2 py-4 bg-gradient-to-r from-[#ffffff] bg-[#c9c9c9] px-[35px] text-center cursor-pointer rounded-xl lg:text-[20px] uppercase text-[#230944] font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#ffffff] hover:bg-[#c9c9c9] transition duration-150">
@@ -34,7 +34,8 @@
                 </div>
             </div>
         </div>
-</section></template>
+    </section>
+</template>
 <script setup>
 
 </script>

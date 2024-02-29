@@ -1,7 +1,7 @@
 <template>
     <section class="sm:pb-[15rem] pb-[5rem]">
 
-        <div class="pt-[5rem]">
+        <div class="">
             <div>
                 <div class="sm:flex sm:space-x-4 space-x-2 text-center justify-center">
                     <h1 class="font-[Graviton-Solid] sm:text-[50px] text-[30px] uppercase text-[#ffffff]">Astrological</h1>
