@@ -17,6 +17,78 @@ const router = createRouter({
       component: () => import('../pages/Horoscopes.vue')
     },
     {
+      path: '/aries',
+      name: 'Aries',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Aries.vue')
+    },
+    {
+      path: '/taurus',
+      name: 'Taurus',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Taurus.vue')
+    },
+    {
+      path: '/gemini',
+      name: 'Gemini',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Gemini.vue')
+    },
+    {
+      path: '/cancer',
+      name: 'Cancer',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Cancer.vue')
+    },
+    {
+      path: '/leo',
+      name: 'Leo',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Leo.vue')
+    },
+    {
+      path: '/virgo',
+      name: 'Virgo',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Virgo.vue')
+    },
+    {
+      path: '/libra',
+      name: 'Libra',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Libra.vue')
+    },
+    {
+      path: '/scorpio',
+      name: 'Scorpio',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Scorpio.vue')
+    },
+    {
+      path: '/sagittarius',
+      name: 'Sagittarius',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Sagittarius.vue')
+    },
+    {
+      path: '/capricorn',
+      name: 'Capricorn',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Capricorn.vue')
+    },
+    {
+      path: '/aquarius',
+      name: 'Aquarius',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Aquarius.vue')
+    },
+    {
+      path: '/pisces',
+      name: 'Pisces',
+      meta: { layout: 'Default' },
+      component: () => import('../pages/Pisces.vue')
+    },
+    {
       path: '/predictions',
       name: 'Predictions',
       meta: { layout: 'Default' },

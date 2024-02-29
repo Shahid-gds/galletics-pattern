@@ -6,8 +6,7 @@
             <h1 class="font-[Graviton-Solid] 2xl:text-[65px] lg:text-[50px] sm:text-[30px] text-[25px] uppercase text-[#ffffff]">Blog</h1>
           </div>
           <div class="2xl:px-[20rem] px-6 leading-[2rem] pt-4">
-            <p class="sm:text-[20px] text-white">Learn about astrology, zodiac signs, retrogrades, and more! Your world becomes
-              clear once you understand how the universe influences it.</p>
+            <p class="sm:text-[20px] text-white">Explore our astrology blog posts to go deeper into the mystical meanings behind the stars.</p>
           </div>
         </div>
       </div>

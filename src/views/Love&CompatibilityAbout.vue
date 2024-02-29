@@ -6,8 +6,7 @@
                 <h1 class="font-[Graviton-Solid] sm:text-[50px] text-[30px] uppercase text-[#9740ff]">Reports</h1>
             </div>
             <div class="container mx-auto 2xl:px-[25rem] lg:px-[10rem] px-6 text-center">
-                <p class="text-[18px] text-[#9a85b5]">Learn about astrology, zodiac signs, retrogrades, and more! Your world
-                    becomes clear once you understand how the universe influences it.</p>
+                <p class="text-[18px] text-[#9a85b5]">Gain insight into your relationship's cosmic dynamics. Discover where you align and where you may need to compromise. Let the stars guide you to deeper love and understanding.</p>
             </div>
         </div>
         <div class="">

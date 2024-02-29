@@ -79,7 +79,7 @@
                     <p class="text-left pt-6 text-[#c5ace2]">{{ card.paragraph }}</p>
                 </div>
                 <div class="text-left pt-6 z-40">
-                    <button class="text-white font-[poppin-bold]">{{ card.button }}</button>
+                    <router-link :to="`/${card.heading.replace(' ', '-')}`" class="text-white font-[poppin-bold]">{{ card.button }}</router-link>
                 </div>
             </div>
 

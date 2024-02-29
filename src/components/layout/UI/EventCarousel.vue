@@ -26,40 +26,34 @@
     {
       title: 'Slide 1',
       heading:'Natal Chart Readings',
-      desc: 'Lorem Ipsum is simply dummy text',
+      desc: 'Decode your birth chart',
       src: img1
     },
     {
       title: 'Slide 2',
-      heading:'Natal Chart Readings',
-      desc: 'Lorem Ipsum is simply dummy text',
+      heading:'Chart Comparisons',
+      desc: 'Contrast cosmic alignments',
       src: img1
     },
     {
       title: 'Slide 3',
-      heading:'Natal Chart Readings',
-      desc: 'Lorem Ipsum is simply dummy text',
+      heading:'Planets & Houses',
+      desc: 'Explore celestial spheres',
       src: img1
     },
     {
       title: 'Slide 4',
-      heading:'Natal Chart Readings',
-      desc: 'Lorem Ipsum is simply dummy text',
+      heading:'Progressions, Solar Returns',
+      desc: 'Evolve your cosmic map',
       src: img1
     },
     {
       title: 'Slide 5',
-      heading:'Natal Chart Readings',
-      desc: 'Lorem Ipsum is simply dummy text',
+      heading:'Elective & Horary Charts',
+      desc: 'Customize your forecast',
       src: img1
     },
-    {
-      title: 'Slide 6',
-      heading:'Natal Chart Readings',
-      desc: 'Lorem Ipsum is simply dummy text',
-      src: img1
-    },
-  
+   
   ]
   
   export default {

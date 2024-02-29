@@ -11,12 +11,7 @@
                             <img class="w-[99px]" src="../../assets/images/Logo.svg" alt="">
                         </div>
                         <div class="text-[#c5ace2]">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                been
-                                the
-                                industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make
-                                a type specimen book.</p>
+                            <p>From interpreting the subtle motions of the planets to the significant shifts within the zodiac, we provide clarity and wisdom for any seeker's journey.</p>
                         </div>
                     </div>
                     <div class="pt-[5rem] px-6">

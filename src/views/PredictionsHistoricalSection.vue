@@ -12,52 +12,48 @@
         </div>
         <div class="lg:flex px-6 text-left items-center pt-[2rem] relative">
             <div class="w-full">
-                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 left-[6rem] mr-auto ml-auto" src="../assets/images/HistoricalImg1.svg" alt="">
+                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 left-[6rem] mr-auto ml-auto"
+                    src="../assets/images/HistoricalImg1.svg" alt="">
             </div>
             <div class="w-full 2xl:pr-[20rem] sm:text-left text-center">
-                <h1 class="sm:text-[22px] text-[20px] text-white italic pb-6">Lorem Ipsum is simply dummy text </h1>
-                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">when an unknown printer took a galley of type and scrambled it to
-                    make a type specimen book. It has
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing when an
-                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting, </p>
-                <p class="sm:text-[22px] text-[20px] italic text-[#c5ace2]">Remaining essentially unchanged. It was popularised in the
+                <h1 class="sm:text-[22px] text-[20px] text-white italic pb-6">Where Astrology Comes From</h1>
+                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">Astrology has been around for thousands of years! Ancient
+                    cultures like the Babylonians started mapping the stars and planets, noticing how they seemed connected
+                    to events here on Earth. Over time, astrologers organized cosmic bodies into the 12 zodiac signs we
+                    still use today. It's amazing how much knowledge has built up over centuries of studying the skies!</p>
+                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">Our astrology draws from all this history. We combine ancient
+                    wisdom with modern methods to get a rich, nuanced understanding. Our goal is to take this incredible
+                    tradition and make it as clear and helpful as possible for you today. Astrology's past guides us in
+                    reading your present and future. </p>
+                <p class="sm:text-[22px] text-[20px] italic text-[#c5ace2]">Remaining essentially unchanged. It was
+                    popularised in the
                     1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
-                   <div class="pt-[2rem]">
+                <div class="pt-[2rem]">
                     <div
-                    class="get-btn lg:p-3 p-2 py-4 bg-gradient-to-r from-[#ffffff] bg-[#c9c9c9] px-[35px] text-center cursor-pointer rounded-xl lg:text-[20px] uppercase text-[#230944] font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#ffffff] hover:bg-[#c9c9c9] transition duration-150">
-                    Schedule your session</div>
-                   </div>
+                        class="get-btn lg:p-3 p-2 py-4 bg-gradient-to-r from-[#ffffff] bg-[#c9c9c9] px-[35px] text-center cursor-pointer rounded-xl lg:text-[20px] uppercase text-[#230944] font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#ffffff] hover:bg-[#c9c9c9] transition duration-150">
+                        Schedule your session</div>
+                </div>
             </div>
         </div>
     </section>
     <section class="sm:pb-[15rem] pb-[5rem]">
         <div class="lg:flex flex-row-reverse px-6 text-left items-center pt-[2rem] relative">
             <div class="w-full">
-                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 right-[6rem] mr-auto ml-auto" src="../assets/images/HistoricalImg2.svg" alt="">
+                <img class="lg:w-[40%] w-[50%] lg:absolute top-0 right-[6rem] mr-auto ml-auto"
+                    src="../assets/images/HistoricalImg2.svg" alt="">
             </div>
             <div class="w-full 2xl:pl-[20rem] sm:text-left text-center">
-                <h1 class="sm:text-[22px] text-[20px] text-white italic pb-6">Lorem Ipsum is simply dummy text </h1>
-                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">when an unknown printer took a galley of type and scrambled it to
-                    make a type specimen book. It has
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing when an
-                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting, </p>
-                <p class="sm:text-[22px] text-[20px] italic text-[#c5ace2]">Remaining essentially unchanged. It was popularised in the
+                <h1 class="sm:text-[22px] text-[20px] text-white italic pb-6">How We Reveal Your Personal Skies </h1>
+                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">We follow in the footsteps of astrologers through the ages who watched the heavens for insight into life on Earth. Using the systems they developed, we work to interpret the cosmic cycles affecting you based on your unique birth chart.</p>
+                <p class="text-[#9a84b4] pb-6 sm:text-[18px]">It takes tons of training, research, and practice to get really skilled at astrological analysis. We never stop learning! Our aim is to take this amazing cosmic knowledge and translate it into guidance that helps you live your best life. You have a special journey - let the stars help light your way!</p>
+                <p class="sm:text-[22px] text-[20px] italic text-[#c5ace2]">Remaining essentially unchanged. It was
+                    popularised in the
                     1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
-                   <div class="pt-[2rem]">
+                <div class="pt-[2rem]">
                     <div
-                    class="get-btn lg:p-3 p-2 py-4 bg-gradient-to-r from-[#ffffff] bg-[#c9c9c9] px-[35px] text-center cursor-pointer rounded-xl lg:text-[20px] uppercase text-[#230944] font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#ffffff] hover:bg-[#c9c9c9] transition duration-150">
-                    Schedule your session</div>
-                   </div>
+                        class="get-btn lg:p-3 p-2 py-4 bg-gradient-to-r from-[#ffffff] bg-[#c9c9c9] px-[35px] text-center cursor-pointer rounded-xl lg:text-[20px] uppercase text-[#230944] font-[poppin-bold] hover:bg-gradient-to-l hover:from-[#ffffff] hover:bg-[#c9c9c9] transition duration-150">
+                        Schedule your session</div>
+                </div>
             </div>
         </div>
     </section>

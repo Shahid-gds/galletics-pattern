@@ -34,11 +34,11 @@ const cards = ref([
     },
     {
         image: import('../../../assets/images/LearningResourcesImg2.svg').then((module) => module.default),
-        heading: 'Birth Chart', paragraph: 'Learning more about your zodiac sign can shed light on your personality, love life, and more.',
+        heading: 'Birth Chart', paragraph: ' Find out how the planets positions at your birth influence your entire life and personality.',
     },
     {
         image: import('../../../assets/images/LearningResourcesImg3.svg').then((module) => module.default),
-        heading: 'Chinese Zodiac', paragraph: 'Learning more about your zodiac sign can shed light on your personality, love life, and more.',
+        heading: 'Chinese Zodiac', paragraph: 'Based on a 12-year cycle, explore how your Chinese zodiac animal sign reflects your traits, challenges, and destiny.',
     },
 
 

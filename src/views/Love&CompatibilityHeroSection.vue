@@ -7,8 +7,7 @@
             <h1 class="2xl:text-[50px] text-[30px]  uppercase text-[#9740ff] font-[Graviton-Solid]">Compatibility</h1>
           </div>
           <div class="2xl:px-[26rem] px-6 leading-[2rem] pt-4">
-            <p class="sm:text-[20px] text-[#e4e3e6]">Enter your details in the FREE online love compatibility calculator to
-                get your chances of relationship.</p>
+            <p class="sm:text-[20px] text-[#e4e3e6]">Unpack the mysteries of the universe with our horoscopes! Our cosmic guidance will help you prepare for what's to come.</p>
           </div>
         </div>
   <div>
@@ -19,7 +18,7 @@
               <h1 class="text-[25px]  uppercase text-[#9740ff] font-[Graviton-Solid]">a</h1>
           </div>
           <div class="text-left border-b-2 border-[#6c40a1] py-5">
-              <p class="text-[#9582ac]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              <p class="text-[#9582ac]">Discover the love connection between you and your partner. Enter your signs and birth details below. We'll reveal if your partnership's stars are aligned with yours.</p>
           </div>
           <div class="text-left pt-[2rem]">
               <div class="lg:flex lg:space-x-10">
@@ -73,7 +72,7 @@
               <h1 class="text-[25px]  uppercase text-[#9740ff] font-[Graviton-Solid]">b</h1>
           </div>
           <div class="text-left border-b-2 border-[#6c40a1] py-5">
-              <p class="text-[#9582ac]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              <p class="text-[#9582ac]">Now add your partner's details to reveal your compatibility. We'll uncover your cosmic love rapport!</p>
           </div>
           <div class="text-left pt-[2rem]">
               <div class="lg:flex lg:space-x-10">

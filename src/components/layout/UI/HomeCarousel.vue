@@ -25,40 +25,35 @@ import img1 from '@/assets/images/HomeCarousel/img1.svg';
 const slides = [
   {
     title: 'Slide 1',
-    heading:'Natal Chart Readings',
-    desc: 'Lorem Ipsum is simply dummy text',
+    heading:'Elective & Horary Charts',
+    // desc: 'Lorem Ipsum is simply dummy text',
     src: img1
   },
   {
     title: 'Slide 2',
-    heading:'Natal Chart Readings',
-    desc: 'Lorem Ipsum is simply dummy text',
+    heading:'Progressions, Solar Returns',
+    // desc: 'Lorem Ipsum is simply dummy text',
     src: img1
   },
   {
     title: 'Slide 3',
     heading:'Natal Chart Readings',
-    desc: 'Lorem Ipsum is simply dummy text',
+    // desc: 'Lorem Ipsum is simply dummy text',
     src: img1
   },
   {
     title: 'Slide 4',
-    heading:'Natal Chart Readings',
-    desc: 'Lorem Ipsum is simply dummy text',
+    heading:'Chart Comparisons',
+    // desc: 'Lorem Ipsum is simply dummy text',
     src: img1
   },
   {
     title: 'Slide 5',
-    heading:'Natal Chart Readings',
-    desc: 'Lorem Ipsum is simply dummy text',
+    heading:'Planets & Houses',
+    // desc: 'Lorem Ipsum is simply dummy text',
     src: img1
   },
-  {
-    title: 'Slide 6',
-    heading:'Natal Chart Readings',
-    desc: 'Lorem Ipsum is simply dummy text',
-    src: img1
-  },
+
 
 ]
 

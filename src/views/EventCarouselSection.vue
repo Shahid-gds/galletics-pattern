@@ -7,8 +7,7 @@
             <h1 class="2xl:text-[50px] text-[30px]  uppercase text-[#9740ff] font-[Graviton-Solid]">Archive</h1>
           </div>
           <div class="2xl:px-[20rem] px-6 leading-[2rem] pt-4 text-center">
-            <p class="sm:text-[20px] text-white">Learn about astrology, zodiac signs, retrogrades, and more! Your world becomes
-              clear once you understand how the universe influences it.</p>
+            <p class="sm:text-[20px] text-white">Come and read about all the past events that shaked the horoscope world!</p>
           </div>
         </div>
       </div>

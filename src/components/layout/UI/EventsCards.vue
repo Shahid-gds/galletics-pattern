@@ -4,17 +4,17 @@
             <div v-for="card in cards" :key="card.image"
                 class="card-hover card 2xl:w-[583px] xl:w-[620px] p-4 m-2 border-2 border-[#5d289d] rounded-2xl">
                 <div class="flex items-center space-x-6">
-                    <div class=" bg-[#9740ff] rounded-2xl">
-                        <img class="" :src="card.image">
+                    <div class="">
+                        <img class="w-full" :src="card.image">
                     </div>
                     <div class="w-full">
                         <h1 class="text-[#ffffff] font-[poppin-bold]">
                             {{ card.heading }}
                         </h1>
-                        <h2 class="text-[#8437e1] py-2">
+                        <h2 class="text-[#8437e1] py-1">
                             {{ card.date }}
                         </h2>
-                        <p class="text-[#ac95c7] pt-2">
+                        <p class="text-[#ac95c7] pt-1">
                             {{ card.paragraph }}
                         </p>
                     </div>
@@ -32,51 +32,51 @@ import { ref, onMounted, computed } from 'vue';
 
 const cards = ref([
     {
-        image: import('../../../assets/images/EventImg1.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg2.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg3.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg4.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg5.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg6.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg7.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg8.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg9.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg10.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg11.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
-        image: import('../../../assets/images/EventImg12.svg').then((module) => module.default),
+        image: import('../../icons/cardsButtonIcon.svg').then((module) => module.default),
         heading: 'Lorem Ipsum is simply', date: 'Jun 22   |   8:00 AM - 5:00 PM', paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
 

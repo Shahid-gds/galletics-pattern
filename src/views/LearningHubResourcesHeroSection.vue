@@ -12,8 +12,7 @@
                 </div>
             </div>
             <div class="container mx-auto 2xl:px-[25rem] lg:px-[10rem] px-6 text-center">
-                <p class="text-[18px] text-[#ffff]">Learn about astrology, zodiac signs, retrogrades, and more! Your world
-                    becomes clear once you understand how the universe influences it.</p>
+                <p class="text-[18px] text-[#ffff]">Expand your cosmic knowledge through our astrological learning tools and reference materials.</p>
             </div>
         </div>
         <div class="pt-[3rem]">
