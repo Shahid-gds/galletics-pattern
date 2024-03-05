@@ -24,7 +24,7 @@
                         </div>
                         <div class="mt-1">
                             <a class="text-[16px] uppercase text-[#7f6a97]  hover:text-white transition-all ease-in duration-300"
-                                href="">info@galacticpatterns.com</a>
+                                href="mailto:info@galacticpatterns.com">info@galacticpatterns.com</a>
                         </div>
                     </div>
                 </div>
