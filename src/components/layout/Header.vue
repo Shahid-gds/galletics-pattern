@@ -34,7 +34,8 @@
                             <img src="../icons/phone.svg" alt="">
                         </div>
                         <div>
-                            <a class="text-[#7f6a97]  hover:text-white transition-all ease-in duration-300" href="#">+ (01)
+                            <a class="text-[#7f6a97]  hover:text-white transition-all ease-in duration-300" href="tel:+ (01)
+                            2345-678-91011">+ (01)
                                 2345-678-91011</a>
                         </div>
                     </div>

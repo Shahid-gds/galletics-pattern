@@ -137,7 +137,7 @@
                             <img src="../icons/email.svg" alt="">
                         </div>
                         <div class="text-[18px] text-[#b59dd0] w-full">
-                            <p>info@galacticpatterns.com</p>
+                            <a href="mailto:info@galacticpatterns.com">info@galacticpatterns.com</a>
                         </div>
                     </div>
                     <div class="flex items-start">
@@ -145,7 +145,7 @@
                             <img src="../icons/phone.svg" alt="">
                         </div>
                         <div class="text-[18px] text-[#b59dd0] w-full">
-                            <p>+ (01) 2345-678-91011</p>
+                            <a href="tel:+ (01) 2345-678-91011">+ (01) 2345-678-91011</a>
                         </div>
                     </div>
                     <div class="mt-[5rem]">
